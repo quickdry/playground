@@ -1,4 +1,5 @@
 def fade(rssi,noise):
+    """fade"""
     return (float(rssi)-noise)/2
 
 def rangemultiplier(fade):
